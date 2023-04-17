@@ -434,3 +434,73 @@ img{
 }
 /*places end*/
 
+
+/* tours start*/
+
+.tours{
+    margin-bottom: 139px;
+}
+.tour-info{
+    padding-left: 47px;
+}
+.tours-tour{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour-title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+.tour-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.tour-more{
+    padding-right: 59px;
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    background: url(./img/arrow-icon.svg) no-repeat right center;
+}
+.tour-more:hover, .tour-more:focus{
+    opacity: .65;
+}
+
+/* tours end*/
+
+
+/* top starts*/
+
+.top{
+    margin-bottom: 86px;
+}
+.top-title{
+    margin-bottom: 54px;
+}
+.top-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+.top-card-pic{
+    position: relative;
+}
+.top-card-stats{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+}
+
+/*top ends*/
